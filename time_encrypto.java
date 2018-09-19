@@ -15,7 +15,8 @@ public class time_encrypto {
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
         LocalDateTime now = LocalDateTime.now();
         System.out.println(dtf.format(now));
-        StringUtil new1 = new StringUtils(dtf.format(now));
-        System.out.println(new1);
+        // Added to encrypt the time
+        // StringUtil new1 = new StringUtils(dtf.format(now));
+        // System.out.println(new1);
     }
 }
