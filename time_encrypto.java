@@ -10,8 +10,6 @@ import java.time.format.DateTimeFormatter;
 
 import java.time.LocalDateTime;
 
-
-
 /**
  * time_encrypto
  */
@@ -37,6 +35,8 @@ public class time_encrypto {
         LocalDate time = LocalDate.now();
         System.out.println(time.getDayOfWeek());
         System.out.println(time.getMonth());
+        //prebuild hash can be added with it . Have to check this :)
+        System.out.println(time.hashCode());
     }
     public static void main(String[] args) {
         getdate();
