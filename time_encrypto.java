@@ -14,14 +14,12 @@ import java.time.LocalDateTime;
  * time_encrypto
  */
 public class time_encrypto {
-
     static void gettime(){
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");  
         LocalDateTime now = LocalDateTime.now();  
         System.out.println(dtf.format(now));
     }
     static void getdate(){
-        
         LocalDate date = LocalDate.now();
         System.out.println(date);
         // System.out.println(TypeInfo(date));
@@ -47,4 +45,5 @@ public class time_encrypto {
         // StringUtil new1 = new StringUtils(dtf.format(now));  
         // System.out.println(new1);
     }   
+
 }
