@@ -14,6 +14,7 @@ public class Block{
         this.previousHash = previousHash;
         this.timeStamp = new Date().getTime();
         this.hash = calculateHash();
+
     }
 
     public String calculateHash(){
@@ -44,4 +45,8 @@ public class Block{
             throw new RuntimeException(e);            
         }
     } 
+
+    public static void main(String[] args) {
+        System.out.println(applySha256("input"));
+    }
 }
