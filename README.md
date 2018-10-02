@@ -7,4 +7,8 @@ Blockchain technology can be integrated into multiple areas. The primary use of 
 
 This project is all about implementing Blockchain Technology using JAVA.
 
+Links for help:
+1) https://dzone.com/articles/blockchain-implementation-with-java-code 
+2) https://medium.com/programmers-blockchain/create-simple-blockchain-java-tutorial-from-scratch-6eeed3cb03fa
+
 HAPPY CODING...
